@@ -8,8 +8,8 @@ __________________________________________________________________________<br />
 
 •Considering the above, go to the following urls to get the images<br/>
  spark image = https://hub.docker.com/repository/docker/slasky777/spark<br/>  
-  driver image = https://hub.docker.com/repository/docker/slasky777/driver_n <br />
-hadoop data node image = https://hub.docker.com/repository/docker/slasky777/dn <br />
-hadoop name node image = https://hub.docker.com/repository/docker/slasky777/nn <br />
-sonar image = https://hub.docker.com/repository/docker/slasky777/sonar <br />
-jupyter image = https://hub.docker.com/repository/docker/slasky777/jupy <br />
+ driver image = https://hub.docker.com/repository/docker/slasky777/driver_n <br/>
+hadoop data node image = https://hub.docker.com/repository/docker/slasky777/dn <br/>
+hadoop name node image = https://hub.docker.com/repository/docker/slasky777/nn <br/>
+sonar image = https://hub.docker.com/repository/docker/slasky777/sonar <br/>
+jupyter image = https://hub.docker.com/repository/docker/slasky777/jupy <br/>
