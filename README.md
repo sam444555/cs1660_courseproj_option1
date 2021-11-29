@@ -51,12 +51,11 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
 1. Run: kubectl apply -f spark.yaml (modify the image contents so it matches your gcp container's path for the spark image)  
 2. Expose the service with the loadbalancer option selected, with ports 8080:8080  
 3. The web UI is running at http://34.134.103.155/projects/create  
-4.  If prompted, the password should be admin (user aswell, if prompted)  
-5.  To get to the terminal application, do: kubectl get pods  
-6.  Find the name of the spark pod, and do:  kubectl exec -it <pod name> /bin/bash  
-7.  Once inside the pod, enter:  /spark/bin/spark-shell  
-8.  the shell should launch, it takes forever  
-## Jupyter Notebook 
+4.  To get to the terminal application, do: kubectl get pods  
+5.  Find the name of the spark pod, and do:  kubectl exec -it <pod name> /bin/bash  
+6.  Once inside the pod, enter:  /spark/bin/spark-shell  
+7.  the shell should launch, it takes forever  
+## jupyter notebook 
 
 
  
