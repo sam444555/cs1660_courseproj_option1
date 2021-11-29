@@ -49,7 +49,7 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
 9.  hadoop link:  http://146.148.48.94:9870/dfshealth.html#tab-overview  
 ## spark  
 1. Run: kubectl apply -f spark.yaml (modify the image contents so it matches your gcp container's path for the spark image)  
-2. Expose the service with the loadbalancer option selected, with ports 8080:8080  
+2. Expose the service with the loadbalancer option selected, with ports 80:8080  
 3. The web UI is running at http://34.70.141.209/
 4.  To get to the terminal application, do: kubectl get pods  
 5.  Find the name of the spark pod, and do:  kubectl exec -it <pod name> /bin/bash  
@@ -59,7 +59,7 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
 1.  On your cluster, select deploy  
 2.  name it whatever you want 
 3.  deploy it 
-4.  create a service for it with the web-balancer option selected with port 8888:8888  
+4.  create a service for it with the web-balancer option selected with port 80:8888  
 5.  the link for jupyter-notebook: 34.67.180.254:80  (if prompted, the login should be admin for user and pass)  
 ## sonar  
 1.  
