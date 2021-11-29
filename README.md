@@ -44,8 +44,9 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
     a. enter: kubectl get pod -o wide  
     b. find the ip for the namenode and copy it  
     c. replace namenode with the ip, making the env <name node ip: 9870>  
-    d. do the same env variables for the namenode (not including option a) and replace option b's hdfs://namenode:9000 with hdfs://<namenode ip>:9000  
-    e. go into the yaml for the data node and set replicas = 2  
+7.  do the same env variables for the namenode (not including option a) and replace option b's hdfs://namenode:9000 with hdfs://<namenode ip>:9000  
+8.  go into the yaml for the data node and set replicas = 2  
+9.  hadoop link:  http://146.148.48.94:9870/dfshealth.html#tab-overview  
 ## spark
 
 
