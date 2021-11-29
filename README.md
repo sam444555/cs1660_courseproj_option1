@@ -55,7 +55,14 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
 5.  Find the name of the spark pod, and do:  kubectl exec -it <pod name> /bin/bash  
 6.  Once inside the pod, enter:  /spark/bin/spark-shell  
 7.  the shell should launch, it takes forever  
-## jupyter notebook 
+## jupyter notebook  
+1.  On your cluster, select deploy  
+2.  name it whatever you want 
+3.  deploy it 
+4.  create a service for it with the web-balancer option selected with port 8888:8888  
+5.  the link for jupyter-notebook: 34.67.180.254:80  (if prompted, the login should be admin for user and pass)  
+## sonar  
+1.  
 
 
  
