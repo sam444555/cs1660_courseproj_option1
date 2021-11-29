@@ -62,7 +62,14 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
 4.  create a service for it with the web-balancer option selected with port 80:8888  
 5.  the link for jupyter-notebook: 34.67.180.254:80  (if prompted, the login should be admin for user and pass)  
 ## sonar  
-1.  
+1.  in your cluster select deploy  
+2.  select the image for slasky777/sonar in your container repository  
+3.  deploy it 
+4.  expose it with the loadbalancer option selected with ports 80:9000  
+5.  sonar url:  http://34.134.103.155/  
+6.  if prompted, login should be admin for both user and password  
+## Wrapping things up  
+
 
 
  
