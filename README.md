@@ -19,7 +19,7 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
 1.  Go into the driver folder and once inside, do the command: kubectl apply -f drive_deployment.yaml  
    This will deploy the container to your cluster.  Read through the contents of this file to personalize it for your deployment.  
 2. The container is now executing on the cluster, to start the program run the following commands:  
-    a.  kubectl get pods 
-    b.  get the name of the driver pod
-    c.  kubectl exec -it <driver pod's name> /bin/bash
+    a.  kubectl get pods   
+    b.  get the name of the driver pod  
+    c.  kubectl exec -it <driver pod's name> /bin/bash  
  
