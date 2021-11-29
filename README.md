@@ -72,7 +72,8 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
 Demo walkthrough (.mov format) >> https://app.box.com/s/bkepyyzwwwg223pdmhwar43w8sbpp21z  
 Demo walkthrough (.mp4 format) >> https://app.box.com/s/a9bv9e9e7gfx4twc8r2l0if6n6jagecf  
 I couldn't use my student box account because i reached my limit, so i had to use an alternative (i don't know if that matters or not).  
-The code for the driver program is in the driver folder 
+
+   The code for the driver program is in the driver folder 
 
 
 
