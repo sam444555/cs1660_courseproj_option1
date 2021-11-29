@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: driver
+  labels:
+    app.kubernetes.io/name: driver
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: driver
+  replicas: 1
+  minReadySeconds: 30
+  strategy:
+    type: RollingUpdate
+    rollingUpdate: 
+      maxUnavailable: 1
+      maxSurge: 1 
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: driver
+    spec:
+      containers:
+        #replace this with your container registry's path to the driver image 
+      - image: gcr.io/courseproject-330704/slasky777/driver_n@sha256:34fba3f404c860767383fc6542cd503b7fe11495fd338ed6070d86327dfe0cd0 
+        imagePullPolicy: Always
+        stdin: true 
+        tty: true 
+        name: driver
+        ports:
+          - containerPort: 8080
+       
+
