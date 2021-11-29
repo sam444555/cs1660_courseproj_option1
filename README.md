@@ -45,7 +45,8 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
     b. find the ip for the namenode and copy it  
     c. replace namenode with the ip, making the env <name node ip: 9870>  
     d. do the same env variables for the namenode (not including option a) and replace option b's hdfs://namenode:9000 with hdfs://<namenode ip>:9000  
-    e. 
+    e. go into the yaml for the data node and set replicas = 2  
+## spark
 
 
  
