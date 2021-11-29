@@ -60,7 +60,7 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
 2.  name it whatever you want 
 3.  deploy it 
 4.  create a service for it with the web-balancer option selected with port 80:8888  
-5.  the link for jupyter-notebook: http:34.67.180.254:80  
+5.  the link for jupyter-notebook: http://34.67.180.254:80  
      -if prompted for a password, enter: 0c4e150e59511c1186488f5bd60894896bcf091ec85ee9d0  
      -or if you're making your own, when the jupyter pod is being created look at the logs and look for a line that reads something like:  
       http://127.0.0.1:8888/?token=0c4e150e59511c1186488f5bd60894896bcf091ec85ee9d0, your password is equal to everything after "token="  
