@@ -17,4 +17,5 @@ jupyter image = https://hub.docker.com/repository/docker/slasky777/jupy <br/>
 ## Driver Program  
 Now that the images are pulled and (presumably) in your GCP container registry, do the following:  
 1.  Go into the driver folder and once inside, do the command: kubectl apply -f drive_deployment.yaml  
-This will deploy the container to your cluster 
+    This will deploy the container to your cluster.  Read through the contents of this file to personalize it for your deployment.  
+2.  
