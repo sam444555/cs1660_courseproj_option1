@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: spark
+  labels:
+    app.kubernetes.io/name: spark
+spec:
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: spark
+  replicas: 1
+  minReadySeconds: 30
+  strategy:
+    type: RollingUpdate
+    rollingUpdate: 
+      maxUnavailable: 1
+      maxSurge: 1 
+  template:
+    metadata:
+      labels:
+        app.kubernetes.io/name: spark
+    spec:
+      containers:
+      - image: bde2020/spark-master:latest
+        imagePullPolicy: Always
+        stdin: true 
+        tty: true 
+        name: spark
+        ports:
+          - containerPort: 8080
+       
+
