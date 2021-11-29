@@ -7,7 +7,7 @@ __________________________________________________________________________<br />
 [3]. docker push gcr.io/my-project/image_name #replace my-project with whatever the name of your project is <br/>
 
 ## Images 
-spark image = https://hub.docker.com/repository/docker/slasky777/spark <br/>  
+spark image = https://hub.docker.com/repository/docker/slasky777/spark __
 driver image = https://hub.docker.com/repository/docker/slasky777/driver_n <br/>
 hadoop data node image = https://hub.docker.com/repository/docker/slasky777/dn <br/>
 hadoop name node image = https://hub.docker.com/repository/docker/slasky777/nn <br/>
