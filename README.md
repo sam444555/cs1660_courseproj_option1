@@ -47,7 +47,8 @@ Now that the images are pulled and (presumably) in your GCP container registry, 
 7.  do the same env variables for the namenode (not including option a) and replace option b's hdfs://namenode:9000 with hdfs://<namenode ip>:9000  
 8.  go into the yaml for the data node and set replicas = 2  
 9.  hadoop link:  http://146.148.48.94:9870/dfshealth.html#tab-overview  
-## spark
+## spark  
+1.  
 
 
  
